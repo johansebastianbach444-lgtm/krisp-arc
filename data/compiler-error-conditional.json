@@ -1,0 +1,1 @@
+{ "english": "If runtime > 30 seconds, pay 10% of gross revenue", "context": { "asset.runtime_seconds": 45, "gross_revenue": 1000 }, "expected": "CompilerError", "canonical": null }
