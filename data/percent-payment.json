@@ -1,0 +1,1 @@
+{ "english": "Pay 25% of gross revenue", "context": { "gross_revenue": 400 }, "expected": { "amount": "100.00", "currency": "USD" }, "canonical": "PERCENT 25 OF gross_revenue" }
