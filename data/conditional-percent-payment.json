@@ -1,0 +1,1 @@
+{  "english": "If runtime is at least 30 seconds, pay 50% of gross revenue, otherwise nothing",  "context": { "asset.runtime_seconds": 45, "gross_revenue": 200 },  "expected": { "amount": "100.00", "currency": "USD" },  "canonical": "IF asset.runtime_seconds >= 30 THEN PERCENT 50 OF gross_revenue ELSE ZERO" }
