@@ -1,0 +1,1 @@
+{"english": "Pay $100 fixed","context": {},"expected": {"amount": "100.00", "currency": "USD"},"canonical": "FIXED 100 USD"}
