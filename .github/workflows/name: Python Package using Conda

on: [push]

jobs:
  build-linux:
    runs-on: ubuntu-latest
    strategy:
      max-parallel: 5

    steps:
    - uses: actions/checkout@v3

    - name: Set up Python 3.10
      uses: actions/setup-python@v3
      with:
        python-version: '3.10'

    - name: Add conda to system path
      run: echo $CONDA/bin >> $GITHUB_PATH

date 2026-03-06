@@ -1,0 +1,23 @@
+
+
+
+name: Lint with flake8
+      run: |
+        conda install flake8
+        # Stop build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Treat all other issues as warnings
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Build package
+      run: |
+        conda install build
+        python -m build
+
+    - name: Test with pytest
+      run: |
+        conda install pytest
+        pytest
+
+    - name: Deploy
+      run: echo "Add your deploy steps here"
